@@ -17,14 +17,14 @@
 
 void setup(){
 
-  Serial.begin(9600);
-  Serial.println("Hola Bones");
+Serial.begin(9600);
 }
 
 //*************************** LOOP ***********************************
 
 void loop() {
 
-
+Serial.print("Hola");
+delay(1000);
 }
 //**************************FUNCIONS**********************************
