@@ -36,7 +36,7 @@ void loop() {
       Serial.println("Aigua supera els 100C, esta bullint!");
       delay (1000);
     }
-      else if (tempAigua <= 100)
+      else (tempAigua <= 100)
       { 
       Serial.println("L'aigua encara no bull");
       delay (1000);
